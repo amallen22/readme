@@ -60,7 +60,8 @@ Abrir una carpeta con sublime desde terminal
 Install GitHub in my computer writting **git --version** on the terminal
 
 git add "file_name.html" (add file)
-git commit "file_name.html" (commit file)
+git commit "file_name.html" -m "description commit" (commit file)
+    - if dont put -m "" esc -> **:q!**
 git st "file_name.html" (file status)
 
 ####Config Git [(p10)](https://skylabcoders.github.io/bootcamp-julio2017/?full#10)####
@@ -106,3 +107,29 @@ We can start creating a remote repo or local repo, both ways goes to the same pl
 - git clone "url new repo"
 
 We can *fork* user projects and modify it and made commit, push and every git thinks
+
+
+##4 de julio##
+####Repaso git####
+
+git log -> copiar hash
+git checkout + (hash) -> nos lleva a la versión
+git checkout master -> nos lleva a la última versión del proyecto
+
+
+#Javascript#
+- Lenguaje de programación
+- Basado en ECMA Script(standard)
+- Orientado no compilado
+- Se ejecuta en el browser & server
+- Lenguaje no tipado > no hace falta definir la clase de una variable 
+- Lenguaje orientado a prototipos
+- Lenguaje interpretado > lenguaje que hay que compilarlo para ejecutarlo, no hay que generar un archivo final
+
+####AJAX####
+Asynchronuos javascript XML
+
+Las variables solo son visibles dentro de la función donde son declaradas
+
+
+
